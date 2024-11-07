@@ -3,7 +3,7 @@ async function exibirResultado(e){
 
     const filme = document.querySelector('.form-input').value
     if(filme){
-        const url = `http://www.omdbapi.com/?apikey=7fea3b64&s=${filme}`
+        const url = `http://www.omdbapi.com/?apikey=b58710e2&s=${filme}`
 
         const response = await fetch(url)
         const filmes = await response.json()
